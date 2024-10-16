@@ -1797,6 +1797,7 @@ h1 {
     width: 159px;
     height: 49px;
     border-radius: 5px;
+    border: solid 2px black;
     transition: all 0.3s;
 }
 
