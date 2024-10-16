@@ -29,10 +29,11 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    background-image: url('/Users/evgeniikapustian/MyOwnSite/five/Contact-us/img/background.jpg');
+    background-image: url('../img/background.jpg');
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
+
 }
 
 .contact-content {
