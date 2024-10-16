@@ -337,6 +337,22 @@
     .offer__columns-item2 > p {
         font-size: 16px;
     }
+
+    
+    /* Contact */
+
+    .form-btn {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 32px;
+        padding-right: 32px;
+        color: white;
+        background-color:rgba(44, 56, 120, 1);
+        border-radius: 5px;
+        border: none;
+        transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 768px) {
