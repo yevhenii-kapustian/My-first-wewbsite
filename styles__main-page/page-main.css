@@ -2,6 +2,10 @@
 
 
 
+.menu-toggle,
+.submenu-toggle {
+    display: none;
+}
 
 
 .bar-line {
@@ -35,10 +39,12 @@
     margin-right: 120px;
 }
 
-
-.bar__menu-main {
-    display: none;
+.top__menu {
+    display: flex;
+    margin-right: 15px;
 }
+
+
 
 
 .nav__bar {
@@ -615,11 +621,6 @@
         min-width: 100px;
     }
 
-    .bar-line {
-        display: flex;
-        justify-content: end;
-        
-    }
 
 
     .container {
@@ -627,10 +628,7 @@
         margin-right: 20px;
     }
 
-    .top__menu {
-        display: flex;
-        
-    }
+
 
     .nav__bar {
         display: flex;
@@ -646,9 +644,9 @@
     }
     
     .sub__menu {
-       
         position: absolute;
-        left: -1rem;
+        left: -2rem;
+        bottom: -11rem;
         z-index: 5;
         transform-origin: 0 0;
         transform: rotateX(-90deg);
@@ -658,7 +656,31 @@
         font-size: 0.8rem;
     }
     
-    .top__menu li:hover > .sub__menu {
+    
+    .sub__menu li {
+        position: relative;
+    }
+    
+    .menu-icon {
+        cursor: pointer;
+        display: block;
+        width: 30px;
+        height: 25px;
+        position: relative;
+    }
+    
+    .menu-icon span {
+        background-color: black;
+        display: block;
+        height: 4px;
+        width: 100%;
+        margin-bottom: 5px;
+        border-radius: 2px;
+    }
+    
+    .menu-toggle:checked ~ .sub__menu {
+        display: flex; 
+        flex-direction: column;
         visibility: visible;
         opacity: 1;
         transform: rotateX(0);
@@ -666,12 +688,8 @@
         background-color: white;
         border: 0;
         padding: 0;
+        cursor: pointer;
     }
-    
-    .sub__menu li {
-        position: relative;
-    }
-    
 
     .experience__container-main {
         padding-top: 1rem;
