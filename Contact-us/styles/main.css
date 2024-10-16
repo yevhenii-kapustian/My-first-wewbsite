@@ -87,6 +87,11 @@
     width: 168px;
     height: 49px;
     align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    
 }
 
 .form-btn {
@@ -342,16 +347,8 @@
     /* Contact */
 
     .form-btn {
-        padding-top: 14px;
-        padding-bottom: 14px;
-        padding-left: 32px;
-        padding-right: 32px;
-        color: white;
-        background-color:rgba(44, 56, 120, 1);
-        border-radius: 5px;
-        border: none;
-        transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
-        font-size: 13px;
+        font-size: 12px;
+        
     }
 }
 
@@ -533,7 +530,7 @@
     }
 
     .form-btn {
-        font-size: 12px;
+        font-size: 13px;
         
     }
 }
