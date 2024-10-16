@@ -11,7 +11,7 @@
 .main-text h1 {
     font-size: 56px;
     font-weight: 700;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(36, 36, 36);
 }
 
 .main-text p {
@@ -24,6 +24,16 @@
 
 
 /* Contact-content */
+
+.contact-main {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-image: url('/Users/evgeniikapustian/MyOwnSite/five/Contact-us/img/background.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .contact-content {
     margin-top: 50px;

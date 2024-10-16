@@ -31,8 +31,6 @@ a:hover  {
     text-decoration: none;
 }
 
-
-
 /* Common */
 
 aside, nav, footer, header, section, main {
@@ -74,17 +72,21 @@ address {
     color: rgba(51, 51, 51, 1);
 }
 
+
 /* Form */
 
 input:focus, input:active,
-button:focus, button:active {
+button:focus, button:active, textarea:focus {
     outline: none;
 }
+
+
 
 
 /* Header */
 
 .container {
+    
     padding-top: 40px;
     margin-left: 120px;
     margin-right: 120px;
@@ -105,18 +107,18 @@ button:focus, button:active {
     gap: 74px;
 }
 
-.menu li .active {
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    font-size: 18px;
-}
-
 
 .menu li {
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgba(51, 51, 51, 1);
+}
+
+.menu li .active {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    font-size: 18px;
 }
 
 .menu li a {
