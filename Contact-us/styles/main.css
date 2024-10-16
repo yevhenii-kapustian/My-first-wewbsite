@@ -515,6 +515,11 @@
     .offer__columns-item2 > p {
         font-size: 14px;
     }
+
+    .form-btn {
+        font-size: 12px;
+        
+    }
 }
     
 @media screen and (max-width: 430px) {
